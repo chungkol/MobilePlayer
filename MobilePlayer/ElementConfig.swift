@@ -41,10 +41,10 @@ public enum ElementWidthCalculation: String {
 }
 
 /// Holds basic element configuration values.
-public class ElementConfig {
+open class ElementConfig {
 
   /// Type of the element. Default value is `.Unknown`.
-  public let type: ElementType
+  open let type: ElementType
 
   /// Identifier of the element.
   ///
@@ -61,20 +61,20 @@ public class ElementConfig {
   ///     * "play"
   ///   * Sliders
   ///     * "playback"
-  public let identifier: String?
+  open let identifier: String?
 
   /// How the width of the element will be calculated. Default value is `.Fill` for title label and playback slider,
   /// `.Fit` for other labels, and `.AsDefined` for the rest.
-  public let widthCalculation: ElementWidthCalculation
+  open let widthCalculation: ElementWidthCalculation
 
   /// Element width, effective only if `widthCalculation` is set to `.AsDefined`. Default value is `40`.
-  public let width: CGFloat
+  open let width: CGFloat
 
   /// The horizontal space to the left of this element that will be left empty. Default value is `0`.
-  public let marginLeft: CGFloat
+  open let marginLeft: CGFloat
 
   /// The horizontal space to the right of this element that will be left empty. Default value is `0`.
-  public let marginRight: CGFloat
+  open let marginRight: CGFloat
 
   /// Initializes using default values.
   public convenience init() {
@@ -96,7 +96,7 @@ public class ElementConfig {
   public init(dictionary: [String: AnyObject]) {
     if let
       elementTypeString = dictionary["type"] as? String,
-      elementType = ElementType(rawValue: elementTypeString) {
+      let elementType = ElementType(rawValue: elementTypeString) {
         type = elementType
     } else {
       type = .Unknown
@@ -109,7 +109,7 @@ public class ElementConfig {
     let isPlaybackSlider = (type == .Slider && id == "playback")
     if let
       elementWidthCalculationString = dictionary["widthCalculation"] as? String,
-      elementWidthCalculation = ElementWidthCalculation(rawValue: elementWidthCalculationString) {
+      let elementWidthCalculation = ElementWidthCalculation(rawValue: elementWidthCalculationString) {
         widthCalculation = elementWidthCalculation
     } else if isTitleLabel || isPlaybackSlider {
       widthCalculation = .Fill

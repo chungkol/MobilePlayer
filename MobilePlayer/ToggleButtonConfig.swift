@@ -9,22 +9,22 @@
 import UIKit
 
 /// Holds toggle button configuration values.
-public class ToggleButtonConfig: ElementConfig {
+open class ToggleButtonConfig: ElementConfig {
 
   /// Button height. Default value is 40.
-  public let height: CGFloat
+  open let height: CGFloat
 
   /// Button image when it's not toggled.
-  public let image: UIImage?
+  open let image: UIImage?
 
   /// Button tint color when it's not toggled. Default value is white.
-  public let tintColor: UIColor
+  open let tintColor: UIColor
 
   /// Button image when it's toggled.
-  public let toggledImage: UIImage?
+  open let toggledImage: UIImage?
 
   /// Button tint color when it's toggled. Default value is white.
-  public let toggledTintColor: UIColor
+  open let toggledTintColor: UIColor
 
   /// Initializes using default values.
   public convenience init() {
@@ -57,7 +57,7 @@ public class ToggleButtonConfig: ElementConfig {
     if let tintColorHex = dictionary["tintColor"] as? String {
       tintColor = UIColor(hex: tintColorHex)
     } else {
-      tintColor = UIColor.whiteColor()
+      tintColor = UIColor.white
     }
 
     if let toggledImageName = dictionary["toggledImage"] as? String {
@@ -71,7 +71,7 @@ public class ToggleButtonConfig: ElementConfig {
     if let toggledTintColorHex = dictionary["toggledTintColor"] as? String {
       toggledTintColor = UIColor(hex: toggledTintColorHex)
     } else {
-      toggledTintColor = UIColor.whiteColor()
+      toggledTintColor = UIColor.white
     }
 
     super.init(dictionary: dictionary)

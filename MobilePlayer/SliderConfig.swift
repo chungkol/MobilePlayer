@@ -9,41 +9,41 @@
 import UIKit
 
 /// Holds slider configuration values.
-public class SliderConfig: ElementConfig {
+open class SliderConfig: ElementConfig {
 
   /// Height of the slider track.
-  public let trackHeight: CGFloat
+  open let trackHeight: CGFloat
 
   /// Corner radius of the slider track.
-  public let trackCornerRadius: CGFloat
+  open let trackCornerRadius: CGFloat
 
   /// Color of the track to the left of slider thumb.
-  public let minimumTrackTintColor: UIColor
+  open let minimumTrackTintColor: UIColor
 
   /// Color of the parts of the track which fall to the right side of slider thumb and represent available value
   /// (e.g. buffered duration of a video).
-  public let availableTrackTintColor: UIColor
+  open let availableTrackTintColor: UIColor
 
   /// Color of the track to the right of slider thumb.
-  public let maximumTrackTintColor: UIColor
+  open let maximumTrackTintColor: UIColor
 
   /// Color of the slider thumb.
-  public let thumbTintColor: UIColor
+  open let thumbTintColor: UIColor
 
   /// Width of the slider thumb.
-  public let thumbWidth: CGFloat
+  open let thumbWidth: CGFloat
 
   /// Height of the slider thumb.
-  public let thumbHeight: CGFloat
+  open let thumbHeight: CGFloat
 
   /// Corner radius of the slider thumb.
-  public let thumbCornerRadius: CGFloat
+  open let thumbCornerRadius: CGFloat
 
   /// Border width of the slider thumb.
-  public let thumbBorderWidth: CGFloat
+  open let thumbBorderWidth: CGFloat
 
   /// Border color of the slider thumb.
-  public let thumbBorderColor: CGColor
+  open let thumbBorderColor: CGColor
 
   /// Initializes using default values.
   public convenience init() {
@@ -91,7 +91,7 @@ public class SliderConfig: ElementConfig {
     if let thumbTintColorHex = dictionary["thumbTintColor"] as? String {
       thumbTintColor = UIColor(hex: thumbTintColorHex)
     } else {
-      thumbTintColor = UIColor.whiteColor()
+      thumbTintColor = UIColor.white
     }
 
     thumbWidth = (dictionary["thumbWidth"] as? CGFloat) ?? 16
@@ -100,9 +100,9 @@ public class SliderConfig: ElementConfig {
     thumbBorderWidth = (dictionary["thumbBorderWidth"] as? CGFloat) ?? 0
 
     if let thumbBorderColorHex = dictionary["thumbBorderColor"] as? String {
-      thumbBorderColor = UIColor(hex: thumbBorderColorHex).CGColor
+      thumbBorderColor = UIColor(hex: thumbBorderColorHex).cgColor
     } else {
-      thumbBorderColor = UIColor.clearColor().CGColor
+      thumbBorderColor = UIColor.clear.cgColor
     }
 
     super.init(dictionary: dictionary)

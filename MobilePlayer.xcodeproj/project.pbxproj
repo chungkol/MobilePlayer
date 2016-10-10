@@ -12,31 +12,31 @@
 		54F247C11DAB7CA70048D04F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F247BF1DAB7CA70048D04F /* Main.storyboard */; };
 		54F247C31DAB7CA70048D04F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54F247C21DAB7CA70048D04F /* Assets.xcassets */; };
 		54F247C61DAB7CA70048D04F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F247C41DAB7CA70048D04F /* LaunchScreen.storyboard */; };
-		54F247E71DAB7DCB0048D04F /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F247CE1DAB7DCB0048D04F /* Bar.swift */; };
-		54F247E81DAB7DCB0048D04F /* BarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F247CF1DAB7DCB0048D04F /* BarConfig.swift */; };
-		54F247E91DAB7DCB0048D04F /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F247D01DAB7DCB0048D04F /* Button.swift */; };
-		54F247EA1DAB7DCB0048D04F /* ButtonConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F247D11DAB7DCB0048D04F /* ButtonConfig.swift */; };
-		54F247EB1DAB7DCB0048D04F /* ClosureSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F247D21DAB7DCB0048D04F /* ClosureSupport.swift */; };
-		54F247EC1DAB7DCB0048D04F /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F247D31DAB7DCB0048D04F /* Element.swift */; };
-		54F247ED1DAB7DCB0048D04F /* ElementConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F247D41DAB7DCB0048D04F /* ElementConfig.swift */; };
-		54F247EE1DAB7DCB0048D04F /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F247D51DAB7DCB0048D04F /* Label.swift */; };
-		54F247EF1DAB7DCB0048D04F /* LabelConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F247D61DAB7DCB0048D04F /* LabelConfig.swift */; };
-		54F247F01DAB7DCB0048D04F /* MobilePlayerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F247D71DAB7DCB0048D04F /* MobilePlayerConfig.swift */; };
-		54F247F11DAB7DCB0048D04F /* MobilePlayerControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F247D81DAB7DCB0048D04F /* MobilePlayerControlsView.swift */; };
-		54F247F21DAB7DCB0048D04F /* MobilePlayerNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F247D91DAB7DCB0048D04F /* MobilePlayerNotification.swift */; };
-		54F247F31DAB7DCB0048D04F /* MobilePlayerOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F247DA1DAB7DCB0048D04F /* MobilePlayerOverlayViewController.swift */; };
-		54F247F41DAB7DCB0048D04F /* MobilePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F247DB1DAB7DCB0048D04F /* MobilePlayerViewController.swift */; };
-		54F247F51DAB7DCB0048D04F /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F247DC1DAB7DCB0048D04F /* Slider.swift */; };
-		54F247F61DAB7DCB0048D04F /* SliderConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F247DD1DAB7DCB0048D04F /* SliderConfig.swift */; };
-		54F247F71DAB7DCB0048D04F /* StateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F247DE1DAB7DCB0048D04F /* StateHelper.swift */; };
-		54F247F81DAB7DCB0048D04F /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F247DF1DAB7DCB0048D04F /* ToggleButton.swift */; };
-		54F247F91DAB7DCB0048D04F /* ToggleButtonConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F247E01DAB7DCB0048D04F /* ToggleButtonConfig.swift */; };
-		54F247FA1DAB7DCB0048D04F /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F247E11DAB7DCB0048D04F /* UIColor+Hex.swift */; };
-		54F247FB1DAB7DCB0048D04F /* UIImage+CocoaPods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F247E21DAB7DCB0048D04F /* UIImage+CocoaPods.swift */; };
-		54F247FC1DAB7DCB0048D04F /* VolumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F247E31DAB7DCB0048D04F /* VolumeView.swift */; };
-		54F247FD1DAB7DCB0048D04F /* WatermarkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F247E41DAB7DCB0048D04F /* WatermarkConfig.swift */; };
-		54F247FE1DAB7DCB0048D04F /* WatermarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F247E51DAB7DCB0048D04F /* WatermarkViewController.swift */; };
-		54F247FF1DAB7DCB0048D04F /* YoutubeParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F247E61DAB7DCB0048D04F /* YoutubeParser.swift */; };
+		54F248191DAB7E720048D04F /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F248001DAB7E720048D04F /* Bar.swift */; };
+		54F2481A1DAB7E720048D04F /* BarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F248011DAB7E720048D04F /* BarConfig.swift */; };
+		54F2481B1DAB7E720048D04F /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F248021DAB7E720048D04F /* Button.swift */; };
+		54F2481C1DAB7E720048D04F /* ButtonConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F248031DAB7E720048D04F /* ButtonConfig.swift */; };
+		54F2481D1DAB7E720048D04F /* ClosureSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F248041DAB7E720048D04F /* ClosureSupport.swift */; };
+		54F2481E1DAB7E720048D04F /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F248051DAB7E720048D04F /* Element.swift */; };
+		54F2481F1DAB7E720048D04F /* ElementConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F248061DAB7E720048D04F /* ElementConfig.swift */; };
+		54F248201DAB7E720048D04F /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F248071DAB7E720048D04F /* Label.swift */; };
+		54F248211DAB7E720048D04F /* LabelConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F248081DAB7E720048D04F /* LabelConfig.swift */; };
+		54F248221DAB7E720048D04F /* MobilePlayerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F248091DAB7E720048D04F /* MobilePlayerConfig.swift */; };
+		54F248231DAB7E720048D04F /* MobilePlayerControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F2480A1DAB7E720048D04F /* MobilePlayerControlsView.swift */; };
+		54F248241DAB7E720048D04F /* MobilePlayerNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F2480B1DAB7E720048D04F /* MobilePlayerNotification.swift */; };
+		54F248251DAB7E720048D04F /* MobilePlayerOverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F2480C1DAB7E720048D04F /* MobilePlayerOverlayViewController.swift */; };
+		54F248261DAB7E720048D04F /* MobilePlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F2480D1DAB7E720048D04F /* MobilePlayerViewController.swift */; };
+		54F248271DAB7E720048D04F /* Slider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F2480E1DAB7E720048D04F /* Slider.swift */; };
+		54F248281DAB7E720048D04F /* SliderConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F2480F1DAB7E720048D04F /* SliderConfig.swift */; };
+		54F248291DAB7E720048D04F /* StateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F248101DAB7E720048D04F /* StateHelper.swift */; };
+		54F2482A1DAB7E720048D04F /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F248111DAB7E720048D04F /* ToggleButton.swift */; };
+		54F2482B1DAB7E720048D04F /* ToggleButtonConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F248121DAB7E720048D04F /* ToggleButtonConfig.swift */; };
+		54F2482C1DAB7E720048D04F /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F248131DAB7E720048D04F /* UIColor+Hex.swift */; };
+		54F2482D1DAB7E720048D04F /* UIImage+CocoaPods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F248141DAB7E720048D04F /* UIImage+CocoaPods.swift */; };
+		54F2482E1DAB7E720048D04F /* VolumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F248151DAB7E720048D04F /* VolumeView.swift */; };
+		54F2482F1DAB7E720048D04F /* WatermarkConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F248161DAB7E720048D04F /* WatermarkConfig.swift */; };
+		54F248301DAB7E720048D04F /* WatermarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F248171DAB7E720048D04F /* WatermarkViewController.swift */; };
+		54F248311DAB7E720048D04F /* YoutubeParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F248181DAB7E720048D04F /* YoutubeParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,31 +47,31 @@
 		54F247C21DAB7CA70048D04F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54F247C51DAB7CA70048D04F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54F247C71DAB7CA70048D04F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		54F247CE1DAB7DCB0048D04F /* Bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
-		54F247CF1DAB7DCB0048D04F /* BarConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarConfig.swift; sourceTree = "<group>"; };
-		54F247D01DAB7DCB0048D04F /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
-		54F247D11DAB7DCB0048D04F /* ButtonConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonConfig.swift; sourceTree = "<group>"; };
-		54F247D21DAB7DCB0048D04F /* ClosureSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosureSupport.swift; sourceTree = "<group>"; };
-		54F247D31DAB7DCB0048D04F /* Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
-		54F247D41DAB7DCB0048D04F /* ElementConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementConfig.swift; sourceTree = "<group>"; };
-		54F247D51DAB7DCB0048D04F /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
-		54F247D61DAB7DCB0048D04F /* LabelConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelConfig.swift; sourceTree = "<group>"; };
-		54F247D71DAB7DCB0048D04F /* MobilePlayerConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobilePlayerConfig.swift; sourceTree = "<group>"; };
-		54F247D81DAB7DCB0048D04F /* MobilePlayerControlsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobilePlayerControlsView.swift; sourceTree = "<group>"; };
-		54F247D91DAB7DCB0048D04F /* MobilePlayerNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobilePlayerNotification.swift; sourceTree = "<group>"; };
-		54F247DA1DAB7DCB0048D04F /* MobilePlayerOverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobilePlayerOverlayViewController.swift; sourceTree = "<group>"; };
-		54F247DB1DAB7DCB0048D04F /* MobilePlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobilePlayerViewController.swift; sourceTree = "<group>"; };
-		54F247DC1DAB7DCB0048D04F /* Slider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
-		54F247DD1DAB7DCB0048D04F /* SliderConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderConfig.swift; sourceTree = "<group>"; };
-		54F247DE1DAB7DCB0048D04F /* StateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateHelper.swift; sourceTree = "<group>"; };
-		54F247DF1DAB7DCB0048D04F /* ToggleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
-		54F247E01DAB7DCB0048D04F /* ToggleButtonConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleButtonConfig.swift; sourceTree = "<group>"; };
-		54F247E11DAB7DCB0048D04F /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
-		54F247E21DAB7DCB0048D04F /* UIImage+CocoaPods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+CocoaPods.swift"; sourceTree = "<group>"; };
-		54F247E31DAB7DCB0048D04F /* VolumeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolumeView.swift; sourceTree = "<group>"; };
-		54F247E41DAB7DCB0048D04F /* WatermarkConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatermarkConfig.swift; sourceTree = "<group>"; };
-		54F247E51DAB7DCB0048D04F /* WatermarkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatermarkViewController.swift; sourceTree = "<group>"; };
-		54F247E61DAB7DCB0048D04F /* YoutubeParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeParser.swift; sourceTree = "<group>"; };
+		54F248001DAB7E720048D04F /* Bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
+		54F248011DAB7E720048D04F /* BarConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarConfig.swift; sourceTree = "<group>"; };
+		54F248021DAB7E720048D04F /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		54F248031DAB7E720048D04F /* ButtonConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonConfig.swift; sourceTree = "<group>"; };
+		54F248041DAB7E720048D04F /* ClosureSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosureSupport.swift; sourceTree = "<group>"; };
+		54F248051DAB7E720048D04F /* Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
+		54F248061DAB7E720048D04F /* ElementConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementConfig.swift; sourceTree = "<group>"; };
+		54F248071DAB7E720048D04F /* Label.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		54F248081DAB7E720048D04F /* LabelConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelConfig.swift; sourceTree = "<group>"; };
+		54F248091DAB7E720048D04F /* MobilePlayerConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobilePlayerConfig.swift; sourceTree = "<group>"; };
+		54F2480A1DAB7E720048D04F /* MobilePlayerControlsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobilePlayerControlsView.swift; sourceTree = "<group>"; };
+		54F2480B1DAB7E720048D04F /* MobilePlayerNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobilePlayerNotification.swift; sourceTree = "<group>"; };
+		54F2480C1DAB7E720048D04F /* MobilePlayerOverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobilePlayerOverlayViewController.swift; sourceTree = "<group>"; };
+		54F2480D1DAB7E720048D04F /* MobilePlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MobilePlayerViewController.swift; sourceTree = "<group>"; };
+		54F2480E1DAB7E720048D04F /* Slider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slider.swift; sourceTree = "<group>"; };
+		54F2480F1DAB7E720048D04F /* SliderConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderConfig.swift; sourceTree = "<group>"; };
+		54F248101DAB7E720048D04F /* StateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StateHelper.swift; sourceTree = "<group>"; };
+		54F248111DAB7E720048D04F /* ToggleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
+		54F248121DAB7E720048D04F /* ToggleButtonConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleButtonConfig.swift; sourceTree = "<group>"; };
+		54F248131DAB7E720048D04F /* UIColor+Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		54F248141DAB7E720048D04F /* UIImage+CocoaPods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+CocoaPods.swift"; sourceTree = "<group>"; };
+		54F248151DAB7E720048D04F /* VolumeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VolumeView.swift; sourceTree = "<group>"; };
+		54F248161DAB7E720048D04F /* WatermarkConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatermarkConfig.swift; sourceTree = "<group>"; };
+		54F248171DAB7E720048D04F /* WatermarkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WatermarkViewController.swift; sourceTree = "<group>"; };
+		54F248181DAB7E720048D04F /* YoutubeParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,31 +118,31 @@
 		54F247CD1DAB7CBC0048D04F /* New Group */ = {
 			isa = PBXGroup;
 			children = (
-				54F247CE1DAB7DCB0048D04F /* Bar.swift */,
-				54F247CF1DAB7DCB0048D04F /* BarConfig.swift */,
-				54F247D01DAB7DCB0048D04F /* Button.swift */,
-				54F247D11DAB7DCB0048D04F /* ButtonConfig.swift */,
-				54F247D21DAB7DCB0048D04F /* ClosureSupport.swift */,
-				54F247D31DAB7DCB0048D04F /* Element.swift */,
-				54F247D41DAB7DCB0048D04F /* ElementConfig.swift */,
-				54F247D51DAB7DCB0048D04F /* Label.swift */,
-				54F247D61DAB7DCB0048D04F /* LabelConfig.swift */,
-				54F247D71DAB7DCB0048D04F /* MobilePlayerConfig.swift */,
-				54F247D81DAB7DCB0048D04F /* MobilePlayerControlsView.swift */,
-				54F247D91DAB7DCB0048D04F /* MobilePlayerNotification.swift */,
-				54F247DA1DAB7DCB0048D04F /* MobilePlayerOverlayViewController.swift */,
-				54F247DB1DAB7DCB0048D04F /* MobilePlayerViewController.swift */,
-				54F247DC1DAB7DCB0048D04F /* Slider.swift */,
-				54F247DD1DAB7DCB0048D04F /* SliderConfig.swift */,
-				54F247DE1DAB7DCB0048D04F /* StateHelper.swift */,
-				54F247DF1DAB7DCB0048D04F /* ToggleButton.swift */,
-				54F247E01DAB7DCB0048D04F /* ToggleButtonConfig.swift */,
-				54F247E11DAB7DCB0048D04F /* UIColor+Hex.swift */,
-				54F247E21DAB7DCB0048D04F /* UIImage+CocoaPods.swift */,
-				54F247E31DAB7DCB0048D04F /* VolumeView.swift */,
-				54F247E41DAB7DCB0048D04F /* WatermarkConfig.swift */,
-				54F247E51DAB7DCB0048D04F /* WatermarkViewController.swift */,
-				54F247E61DAB7DCB0048D04F /* YoutubeParser.swift */,
+				54F248001DAB7E720048D04F /* Bar.swift */,
+				54F248011DAB7E720048D04F /* BarConfig.swift */,
+				54F248021DAB7E720048D04F /* Button.swift */,
+				54F248031DAB7E720048D04F /* ButtonConfig.swift */,
+				54F248041DAB7E720048D04F /* ClosureSupport.swift */,
+				54F248051DAB7E720048D04F /* Element.swift */,
+				54F248061DAB7E720048D04F /* ElementConfig.swift */,
+				54F248071DAB7E720048D04F /* Label.swift */,
+				54F248081DAB7E720048D04F /* LabelConfig.swift */,
+				54F248091DAB7E720048D04F /* MobilePlayerConfig.swift */,
+				54F2480A1DAB7E720048D04F /* MobilePlayerControlsView.swift */,
+				54F2480B1DAB7E720048D04F /* MobilePlayerNotification.swift */,
+				54F2480C1DAB7E720048D04F /* MobilePlayerOverlayViewController.swift */,
+				54F2480D1DAB7E720048D04F /* MobilePlayerViewController.swift */,
+				54F2480E1DAB7E720048D04F /* Slider.swift */,
+				54F2480F1DAB7E720048D04F /* SliderConfig.swift */,
+				54F248101DAB7E720048D04F /* StateHelper.swift */,
+				54F248111DAB7E720048D04F /* ToggleButton.swift */,
+				54F248121DAB7E720048D04F /* ToggleButtonConfig.swift */,
+				54F248131DAB7E720048D04F /* UIColor+Hex.swift */,
+				54F248141DAB7E720048D04F /* UIImage+CocoaPods.swift */,
+				54F248151DAB7E720048D04F /* VolumeView.swift */,
+				54F248161DAB7E720048D04F /* WatermarkConfig.swift */,
+				54F248171DAB7E720048D04F /* WatermarkViewController.swift */,
+				54F248181DAB7E720048D04F /* YoutubeParser.swift */,
 			);
 			name = "New Group";
 			sourceTree = "<group>";
@@ -219,33 +219,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54F247F11DAB7DCB0048D04F /* MobilePlayerControlsView.swift in Sources */,
-				54F247F91DAB7DCB0048D04F /* ToggleButtonConfig.swift in Sources */,
-				54F247E91DAB7DCB0048D04F /* Button.swift in Sources */,
+				54F248231DAB7E720048D04F /* MobilePlayerControlsView.swift in Sources */,
+				54F2482B1DAB7E720048D04F /* ToggleButtonConfig.swift in Sources */,
+				54F2481B1DAB7E720048D04F /* Button.swift in Sources */,
 				54F247BE1DAB7CA70048D04F /* ViewController.swift in Sources */,
-				54F247EC1DAB7DCB0048D04F /* Element.swift in Sources */,
-				54F247FA1DAB7DCB0048D04F /* UIColor+Hex.swift in Sources */,
-				54F247E81DAB7DCB0048D04F /* BarConfig.swift in Sources */,
-				54F247FB1DAB7DCB0048D04F /* UIImage+CocoaPods.swift in Sources */,
-				54F247E71DAB7DCB0048D04F /* Bar.swift in Sources */,
-				54F247F31DAB7DCB0048D04F /* MobilePlayerOverlayViewController.swift in Sources */,
-				54F247EB1DAB7DCB0048D04F /* ClosureSupport.swift in Sources */,
-				54F247F01DAB7DCB0048D04F /* MobilePlayerConfig.swift in Sources */,
-				54F247FD1DAB7DCB0048D04F /* WatermarkConfig.swift in Sources */,
-				54F247FE1DAB7DCB0048D04F /* WatermarkViewController.swift in Sources */,
-				54F247F71DAB7DCB0048D04F /* StateHelper.swift in Sources */,
+				54F2481E1DAB7E720048D04F /* Element.swift in Sources */,
+				54F2482C1DAB7E720048D04F /* UIColor+Hex.swift in Sources */,
+				54F2481A1DAB7E720048D04F /* BarConfig.swift in Sources */,
+				54F2482D1DAB7E720048D04F /* UIImage+CocoaPods.swift in Sources */,
+				54F248191DAB7E720048D04F /* Bar.swift in Sources */,
+				54F248251DAB7E720048D04F /* MobilePlayerOverlayViewController.swift in Sources */,
+				54F2481D1DAB7E720048D04F /* ClosureSupport.swift in Sources */,
+				54F248221DAB7E720048D04F /* MobilePlayerConfig.swift in Sources */,
+				54F2482F1DAB7E720048D04F /* WatermarkConfig.swift in Sources */,
+				54F248301DAB7E720048D04F /* WatermarkViewController.swift in Sources */,
+				54F248291DAB7E720048D04F /* StateHelper.swift in Sources */,
 				54F247BC1DAB7CA70048D04F /* AppDelegate.swift in Sources */,
-				54F247F81DAB7DCB0048D04F /* ToggleButton.swift in Sources */,
-				54F247FF1DAB7DCB0048D04F /* YoutubeParser.swift in Sources */,
-				54F247ED1DAB7DCB0048D04F /* ElementConfig.swift in Sources */,
-				54F247EE1DAB7DCB0048D04F /* Label.swift in Sources */,
-				54F247EF1DAB7DCB0048D04F /* LabelConfig.swift in Sources */,
-				54F247F51DAB7DCB0048D04F /* Slider.swift in Sources */,
-				54F247EA1DAB7DCB0048D04F /* ButtonConfig.swift in Sources */,
-				54F247F41DAB7DCB0048D04F /* MobilePlayerViewController.swift in Sources */,
-				54F247F61DAB7DCB0048D04F /* SliderConfig.swift in Sources */,
-				54F247FC1DAB7DCB0048D04F /* VolumeView.swift in Sources */,
-				54F247F21DAB7DCB0048D04F /* MobilePlayerNotification.swift in Sources */,
+				54F2482A1DAB7E720048D04F /* ToggleButton.swift in Sources */,
+				54F248311DAB7E720048D04F /* YoutubeParser.swift in Sources */,
+				54F2481F1DAB7E720048D04F /* ElementConfig.swift in Sources */,
+				54F248201DAB7E720048D04F /* Label.swift in Sources */,
+				54F248211DAB7E720048D04F /* LabelConfig.swift in Sources */,
+				54F248271DAB7E720048D04F /* Slider.swift in Sources */,
+				54F2481C1DAB7E720048D04F /* ButtonConfig.swift in Sources */,
+				54F248261DAB7E720048D04F /* MobilePlayerViewController.swift in Sources */,
+				54F248281DAB7E720048D04F /* SliderConfig.swift in Sources */,
+				54F2482E1DAB7E720048D04F /* VolumeView.swift in Sources */,
+				54F248241DAB7E720048D04F /* MobilePlayerNotification.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

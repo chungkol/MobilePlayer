@@ -9,28 +9,28 @@
 import UIKit
 
 /// Holds bar configuration values.
-public class BarConfig {
+open class BarConfig {
 
   /// Bar background color. If there is more than one value, background will be a gradient.
-  public let backgroundColor: [UIColor]
+  open let backgroundColor: [UIColor]
 
   /// Bar height.
-  public let height: CGFloat
+  open let height: CGFloat
 
   /// Height of the top edge border view.
-  public let topBorderHeight: CGFloat
+  open let topBorderHeight: CGFloat
 
   /// Background color of the top edge border view.
-  public let topBorderColor: UIColor
+  open let topBorderColor: UIColor
 
   /// Height of the bottom edge border view.
-  public let bottomBorderHeight: CGFloat
+  open let bottomBorderHeight: CGFloat
 
   /// Background color of the bottom edge border view.
-  public let bottomBorderColor: UIColor
+  open let bottomBorderColor: UIColor
 
   /// An array of configuration objects for the elements of the bar.
-  public let elements: [ElementConfig]
+  open let elements: [ElementConfig]
 
   /// Initializes using default values.
   public convenience init() {
@@ -69,7 +69,7 @@ public class BarConfig {
     if let topBorderColorHex = dictionary["topBorderColor"] as? String {
       topBorderColor = UIColor(hex: topBorderColorHex)
     } else {
-      topBorderColor = UIColor.clearColor()
+      topBorderColor = UIColor.clear
     }
 
     bottomBorderHeight = (dictionary["bottomBorderHeight"] as? CGFloat) ?? 0
@@ -77,7 +77,7 @@ public class BarConfig {
     if let bottomBorderColorHex = dictionary["bottomBorderColor"] as? String {
       bottomBorderColor = UIColor(hex: bottomBorderColorHex)
     } else {
-      bottomBorderColor = UIColor.clearColor()
+      bottomBorderColor = UIColor.clear
     }
 
     if let elementDictionaries = dictionary["elements"] as? [[String: AnyObject]] {

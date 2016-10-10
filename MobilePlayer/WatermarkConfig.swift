@@ -40,13 +40,13 @@ public enum WatermarkPosition: String {
 }
 
 /// Holds watermark configuration values. 
-public class WatermarkConfig {
+open class WatermarkConfig {
 
   /// Watermark image.
-  public let image: UIImage?
+  open let image: UIImage?
 
   /// Watermark position. Default value is `.BottomRight`.
-  public let position: WatermarkPosition
+  open let position: WatermarkPosition
 
   /// Initializes using default values.
   public convenience init() {
@@ -68,7 +68,7 @@ public class WatermarkConfig {
     }
     if let
       positionString = dictionary["position"] as? String,
-      positionValue = WatermarkPosition(rawValue: positionString) {
+      let positionValue = WatermarkPosition(rawValue: positionString) {
         position = positionValue
     } else {
       position = .BottomRight

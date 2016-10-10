@@ -9,16 +9,16 @@
 import UIKit
 
 /// Holds button configuration values.
-public class ButtonConfig: ElementConfig {
+open class ButtonConfig: ElementConfig {
 
   /// Button height. Default value is 40.
-  public let height: CGFloat
+  open let height: CGFloat
 
   /// Button image.
-  public let image: UIImage?
+  open let image: UIImage?
 
   /// Button tint color. Default value is white.
-  public let tintColor: UIColor
+  open let tintColor: UIColor
 
   /// Initializes using default values.
   public convenience init() {
@@ -54,7 +54,7 @@ public class ButtonConfig: ElementConfig {
     if let tintColorHex = dictionary["tintColor"] as? String {
       tintColor = UIColor(hex: tintColorHex)
     } else {
-      tintColor = UIColor.whiteColor()
+      tintColor = UIColor.white
     }
 
     super.init(dictionary: dictionary)
